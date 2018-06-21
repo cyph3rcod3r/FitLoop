@@ -53,7 +53,7 @@ Its simple to use.
                     
    	Add the dependency
           
-                    	dependencies {
+                    dependencies {
 		    	      implementation 'com.github.cyph3rcod3r:FitLoop:release-alpha-0.1'
 	          	}
  
