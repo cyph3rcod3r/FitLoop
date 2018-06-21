@@ -19,7 +19,7 @@ Its simple to use.
              app:layout_constraintTop_toTopOf="parent" />
 
 
-2. Craete Data set
+2. Create Data set
 
         CircleProgressDataSet dataset = new CircleProgressDataSet(10  // primaryProgress
                 , 20 // secondaryProgress
@@ -28,7 +28,7 @@ Its simple to use.
                 , getResources().getColor(R.color.ltGray) // Ring Color
         );
         
-3. set Data set to imageview
+3. Set DataSet to imageview
 
         CircularProgressImageView circularProgressImageView = findViewById(R.id.cpimv);
         
@@ -40,6 +40,24 @@ Its simple to use.
  
  Check the drawable class for other supports
  
+ Gradle Dependency Usage:
+    
+   	Add it in your root build.gradle at the end of repositories:
+          
+                allprojects {
+			repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		        }
+	          }
+                    
+   	Add the dependency
+          
+                    dependencies {
+		    	      implementation 'com.github.cyph3rcod3r:FitLoop:release-alpha-0.1'
+	          	}
+ 
+The MIT Licence
 
           Copyright (c) 2018 cyb3rWalk3r Studios
 
