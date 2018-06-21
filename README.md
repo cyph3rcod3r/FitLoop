@@ -19,7 +19,7 @@ Its simple to use.
              app:layout_constraintTop_toTopOf="parent" />
 
 
-2. Craete Data set
+2. Create Data set
 
         CircleProgressDataSet dataset = new CircleProgressDataSet(10  // primaryProgress
                 , 20 // secondaryProgress
@@ -28,7 +28,7 @@ Its simple to use.
                 , getResources().getColor(R.color.ltGray) // Ring Color
         );
         
-3. set Data set to imageview
+3. Set DataSet to imageview
 
         CircularProgressImageView circularProgressImageView = findViewById(R.id.cpimv);
         
