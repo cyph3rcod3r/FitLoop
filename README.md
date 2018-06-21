@@ -3,7 +3,7 @@ Google Fit inspired Circular Progress bar
 
 A progress drawable that uses an imageview to draw the progress rings.
 
-[![Screenshot_20180621-163114.png](https://s22.postimg.cc/6ys003vip/Screenshot_20180621-163114.png)](https://postimg.cc/image/r65fseszx/)
+[![ezgif.com-video-to-gif.gif](https://s22.postimg.cc/4hpfkbay9/ezgif.com-video-to-gif.gif)](https://postimg.cc/image/wukxarwod/)
 
 Its simple to use.
 
