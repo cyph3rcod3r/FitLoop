@@ -45,17 +45,17 @@ Its simple to use.
    Add it in your root build.gradle at the end of repositories:
           
                    allprojects {
-		repositories {
+			repositories {
 			...
 			maven { url 'https://jitpack.io' }
-		          }
+		        }
 	          }
                     
    Add the dependency
           
-                    dependencies {
-		          implementation 'com.github.cyph3rcod3r:FitLoop:release-alpha-0.1'
-	          }
+                    	dependencies {
+		    	      implementation 'com.github.cyph3rcod3r:FitLoop:release-alpha-0.1'
+	          	}
  
 
           Copyright (c) 2018 cyb3rWalk3r Studios
