@@ -42,7 +42,7 @@ Its simple to use.
  
  Gradle Dependency Usage:
     
-   Add it in your root build.gradle at the end of repositories:
+   	Add it in your root build.gradle at the end of repositories:
           
                    allprojects {
 			repositories {
@@ -51,12 +51,13 @@ Its simple to use.
 		        }
 	          }
                     
-   Add the dependency
+   	Add the dependency
           
                     	dependencies {
 		    	      implementation 'com.github.cyph3rcod3r:FitLoop:release-alpha-0.1'
 	          	}
  
+The MIT Licence
 
           Copyright (c) 2018 cyb3rWalk3r Studios
 
